@@ -7,7 +7,7 @@
 - eate a profile
 - load pictures
 - ???
-- ofit!
+- profit!
 
 ## Cost Analysis
 ```
