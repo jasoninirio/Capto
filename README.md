@@ -4,8 +4,8 @@
 
 ## Getting Started
 
-- eate a profile
-- load pictures
+- create a profile
+- load product
 - ???
 - profit!
 
