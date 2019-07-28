@@ -4,10 +4,10 @@
 
 ## Getting Started
 
-> Create a profile
-> Upload pictures
-> ???
-> Profit!
+- create a profile
+- load product
+- ???
+- profit!
 
 ## Cost Analysis
 ```
@@ -27,6 +27,7 @@ Grand Total: $240.00-$280.00
 * [Django](https://docs.djangoproject.com/en/2.2/) - The web framework used
 * [Apache2](https://httpd.apache.org/docs/) - Apache server
 * [MySQL](https://dev.mysql.com/doc/) - SQL databse / server tool
+* [Node.js](https://segment.com/docs/sources/server/node/) - Server-side programming
 
 
 ## Versioning
