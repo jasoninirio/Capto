@@ -4,10 +4,10 @@
 
 ## Getting Started
 
-> Create a profile
-> Upload pictures
-> ???
-> Profit!
+- eate a profile
+- load pictures
+- ???
+- ofit!
 
 ## Cost Analysis
 ```
