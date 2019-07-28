@@ -1,42 +1,114 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-        <meta charset="UTF-8" style="font-family: 'Courier New', Courier, monospace;">
-        <title> Capto - The Virtual Garage </title>
-        <style>
-            .topnav {
-                background-color: #ff7e30;
-                overflow:hidden;
-            }
-    
-            .topnav a {
-                float: left;
-                color: #ffffff;
-                text-align: center;
-                padding: 14px 16px;
-                text-decoration: none;
-                font-size: 16px;
-            }
-    
-            .topnav a:hover{
-                background-color: #dddddd;
-                color: black;
-            }
-    
-            .topnav a.active{
-                background-color: #008080;
-                color: white;
-            }
-    
-        </style>
+    <meta charset="UTF-8" style="font-family: 'Courier New', Courier, monospace;">
+    <title> Capto - The Virtual Garage</title>
+    <style> /* PHP needed */
+        html, body {
+            width: 100%;
+            height: 100%;
+            text-align: center;
+        }
+
+        article {
+            min-height: 100%;
+            display: grid;
+            grid-template-rows: auto 1fr auto;
+            grid-template-columns: 100%;
+        }
+
+        main {
+            padding: 1rem;
+        }
+
+        footer {
+            padding: 1rem;
+        }
+        img {
+            max-width: 25%;
+            height: 25%;
+            object-fit: contain;
+            text-align: center;
+        }
+
+        header {
+            padding: 1rem; 
+            background: magenta; /* indication */
+        }
+
+    </style>
+    <style>
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+        .topnav {
+            background-color: #ff7e30;
+            overflow:hidden;
+        }
+
+        .topnav a {
+            float: left;
+            color: #ffffff;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        .topnav a:hover{
+            background-color: #dddddd;
+            color: black;
+        }
+
+        .topnav a.active{
+            background-color: #008080;
+            color: white;
+        }
+
+        .topnav input[type=text] {
+            float: right;
+            padding: 6px;
+            border: none;
+            margin-top: 8px;
+            margin-right: 16px;
+            font-size: 17px;
+        }
+
+        .searchbar{
+            text-align: center;
+            float: right;
+
+        }
+    </style>
 </head>
 <body>
-    <nav>
+    <header>
         <div class="topnav">
+            <!-- Edit logo -->
+            <img src="capto_logo.png" width="50%" height="25%" alt="Capto Logo" class="center">
+            <!-- Edit logo -->
             <a href="homepage.html"> Home </a>
             <a class="active" href="about.html"> About Us </a>
+            <a href="login.html"> Login </a>
+            
+            <div class="searchbar">
+                <input type="text" placeholder="Search...">
+            </div>
         </div>
-    </nav>
-    <h1> About Page Works! </h1>
+    </header>
+    <main>
+        <h1> We are Capto </h1>
+        <strong> <!-- Connect to a .txt file with PHP -->
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dolor sed viverra ipsum nunc aliquet bibendum enim. In massa tempor nec feugiat. Nunc aliquet bibendum enim facilisis gravida. Nisl nunc mi ipsum faucibus vitae aliquet nec ullamcorper. Amet luctus venenatis lectus magna fringilla. Volutpat maecenas volutpat blandit aliquam etiam erat velit scelerisque in.
+        </strong>
+    </main>
+    <footer>
+        All rights reserved.
+        <br>
+        Capto Inc.
+    </footer>
 </body>
 </html>
