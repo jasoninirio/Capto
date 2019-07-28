@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" style="font-family: 'Courier New', Courier, monospace;">
+        <title> Capto - The Virtual Garage</title>
+        <style> /* Improve CSS and connect with Apache/SQL. PHP needed */ 
+        .container{
+            padding: 16px;
+        }
+
+        input[type=text], input[type=password] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+        </style>
+
+        <script>
+        function goBack() {
+            window.history.back()
+        }
+        </script>
+    </head>
+    <body>
+        <div class="container">
+            <label for="uname"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" required>
+
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+
+            <button type="submit"> Login </button>
+            <label>
+                <input type="checkbox" checked="checked" name="remember"> Remember me
+            </label>
+        </div>
+        <button onclick="goBack()"> Back </button> <!-- Fix back button: FIXED -->
+    </body>
+</html>
