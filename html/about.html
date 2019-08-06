@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" style="font-family: 'Courier New', Courier, monospace;">
+<title> Capto - The Virtual Garage</title>
+<style>
+/* PHP needed */
+html, body {
+    width: 100%;
+    height: 100%;
+    
+}
+article {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 100%;
+	
+}
+main {
+    padding: 1rem;
+	text-align: center;
+}
+footer {
+    padding: 1rem;
+	text-align: center;
+}
+
+header {
+    padding: 1rem;
+    background: magenta; /* indication */
+}
+</style>
+<style>
+.menu {
+    display: inline-block;
+    float: left;
+    cursor: pointer;
+    padding: 2px;
+}
+.menu a:hover {
+    color: #1386A6;
+}
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #36B4D6;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+.headerLogo {
+    float: left;
+    align-self: auto;
+    display: inline-block;
+    padding: 2px;
+}
+	.headerLogo a:hover{
+	opacity: .75;
+	
+}
+.topnav {
+    top: 0px;
+    left: 0px;
+    background-color: #F68E39;
+    overflow: hidden;
+    padding: none;
+    position: fixed;
+    float: none;
+    width: 100%;
+}
+.topnav a {
+    float: none;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+}
+.topnav a:hover {
+    color: #1386A6;
+}
+.topnav a.active {
+    background-color: #36B4D6;
+    color: white;
+}
+.topnav input[type=text] {
+    float: none;
+    padding: 6px;
+    border: none;
+    border-radius: 15px;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+}
+
+/* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+@media screen and (max-width: 600px) {
+.topnav a, .topnav input[type=text] {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+}
+.topnav input[type=text] {
+    border: 1px solid #ccc;
+    float: right;
+}
+}
+.sidenav {
+    height: 100%;
+    width: 0px;
+    position: fixed;
+    z-index: 1;
+    top: 44px;
+    left: 0;
+    background-color: #4D4D4F;
+    overflow-x: hidden;
+    transition: 0.3s;
+    padding-top: 60px;
+    color: aliceblue;
+    font-size: 30px;
+}
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+.sidenav a:hover {
+    color: #F68E39;
+}
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+.sidenav {
+    padding-top: 15px;
+}
+.sidenav a {
+    font-size: 18px;
+}
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="topnav">
+    <div class="menu" onclick="openNav()">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+    </div>
+    <div class="headerLogo"> <a href="homepage.html"><img src=
+				"images/capto_logo.png" alt="Capto Logo"> </a> </div>
+    <input type="text" placeholder="Search Results" size="50" maxlength="100">
+    <a class="active" href="about.html"> About </a> <a href="profilepage.html"> My Account </a><a href="login.html">Log In </a> </div>
+</header>
+<div id="mySidenav" class="sidenav"><a href="javascript:void(0)" class="closebtn" onClick="closeNav()">&times;</a> Categories <a href="#">Category 1</a> <a href="#">Category 2</a><a href="#">Category 3</a><a href="#">Category 4</a><a href="#">Category 5</a></div>
+<script>
+			
+			function openNav() {
+				document.getElementById("mySidenav").style.width = "250px";
+			}
+
+			function closeNav() {
+				document.getElementById("mySidenav").style.width = "0";
+			}
+		</script>
+<main>
+  <h1> We are Capto </h1>
+  <strong> <!-- Connect to a .txt file with PHP --> 
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dolor sed viverra ipsum nunc aliquet bibendum enim. In massa tempor nec feugiat. Nunc aliquet bibendum enim facilisis gravida. Nisl nunc mi ipsum faucibus vitae aliquet nec ullamcorper. Amet luctus venenatis lectus magna fringilla. Volutpat maecenas volutpat blandit aliquam etiam erat velit scelerisque in. </strong> </main>
+<footer> All rights reserved. <br>
+  Capto Inc. </footer>
+	
+</body>
+</html>
