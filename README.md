@@ -4,23 +4,21 @@
 
 ## Getting Started
 
-- create a profile
-- load product
-- ???
-- profit!
+* create a profile
+* load product
+* ???
+* profit!
 
 ## Cost Analysis
-```
-Storage (2 TB) : $80.00
-- URL Regis (thru Google Domains): $50.00 / year
-or
-- URL Regis (thru Domains.com): $10.00 / year
-Emergency Fund: $150.00
+- Non-Dedicated Server: $36.00
+- [Dedicated Server](https://pcpartpicker.com/list/tDr6vn): $720.00 - $735.00
+- [SSL Certificate](https://www.godaddy.com/offers/ssl-certificate?isc=gssl001&gclid=CjwKCAjwnMTqBRAzEiwAEF3ndkP-Nt7IJFGBzhwHzGk7pgMUBHJKMs5oAbDKrtWLMrqaTyScRREv1hoCh9QQAvD_BwE&gclsrc=aw.ds): $65.00
+- [URL Registry](https://www.domain.com/registration?__token_timestamp__=1565627955&__token_val__=27ccf2aa1a302cad555c2e772b74eeb1&flow=domainDFEMO365&flowid=25&page=1&search=capto.com#/domainDFEMO365/1): $19.00 
 
-Grand Total: $240.00-$280.00
-	CAP: $300.00
- 
-```
+Emergency Fund: $427.50
+
+Grand Total: $840.00 - $855.00
+	CAP: $1,285.00
 
 ## Built With
 
