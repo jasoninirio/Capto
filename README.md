@@ -17,9 +17,10 @@
 
 Emergency Fund: $427.50
 
+```
 Grand Total: $840.00 - $855.00
 	CAP: $1,285.00
-
+```
 ## Built With
 
 * [Django](https://docs.djangoproject.com/en/2.2/) - The web framework used
