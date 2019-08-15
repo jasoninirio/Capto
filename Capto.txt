@@ -1,0 +1,22 @@
+Cost Analysis:
+- URL (5 Years): ~$50.00
+- SSL Certificate: $5.00
+- Starter Server: $34.00
+- Registry: 
+
+Database:
+- Node.js
+	- Chats
+	- Friends / social media migration
+
+- SQL
+	- Items/Author/About
+	- Web Design presets
+	- Security
+
+- Django + Apache
+	- HTTP/HTTPS Security (Certifications?)
+	- Web Framework (Designs and interactions)
+
+Algorithm:
+- Guaranteed Sale
