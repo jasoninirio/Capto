@@ -30,10 +30,9 @@ Grand Total: $840.00 - $855.00
 * [MySQL](https://dev.mysql.com/doc/) - SQL database / server tool
 * [Node.js](https://segment.com/docs/sources/server/node/) - Server-side programming
 
+## APIs
 
-## Versioning
-
-- Currently No Version
+* [Google Maps](https://developers.google.com/maps/documentation/javascript/adding-a-google-map#step_3_get_an_api_key) - Google Maps for location
 
 ## Authors
 
