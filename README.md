@@ -26,7 +26,7 @@ Grand Total: $840.00 - $855.00
 
 * [Django](https://docs.djangoproject.com/en/2.2/) - The web framework used
 * [Apache2](https://httpd.apache.org/docs/) - Apache server
-* [MySQL](https://dev.mysql.com/doc/) - SQL databse / server tool
+* [MySQL](https://dev.mysql.com/doc/) - SQL database / server tool
 * [Node.js](https://segment.com/docs/sources/server/node/) - Server-side programming
 
 
