@@ -34,6 +34,7 @@ Grand Total: $840.00 - $855.00
 ## APIs
 
 * [Google Maps](https://developers.google.com/maps/documentation/javascript/adding-a-google-map#step_3_get_an_api_key) - Google Maps for location
+* [Bandwidth Tool](https://tools.pingdom.com)
 
 ## Authors
 
