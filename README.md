@@ -15,6 +15,7 @@
 - Non-Dedicated Server: $36.00
 - [Dedicated Server](https://pcpartpicker.com/list/tDr6vn): $720.00 - $735.00
 - [SSL Certificate](https://www.godaddy.com/offers/ssl-certificate?isc=gssl001&gclid=CjwKCAjwnMTqBRAzEiwAEF3ndkP-Nt7IJFGBzhwHzGk7pgMUBHJKMs5oAbDKrtWLMrqaTyScRREv1hoCh9QQAvD_BwE&gclsrc=aw.ds): $65.00
+- [Let's Encrypt](https://letsencrypt.org): FREE
 - [URL Registry](https://www.domain.com/registration?__token_timestamp__=1565627955&__token_val__=27ccf2aa1a302cad555c2e772b74eeb1&flow=domainDFEMO365&flowid=25&page=1&search=capto.com#/domainDFEMO365/1): $19.00 
 
 Emergency Fund: $427.50
