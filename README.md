@@ -1,6 +1,6 @@
 # Capto - Your Virtual Garage Sale
 - [Capto Link (without URL)](http://71.206.95.234:8081/)
-- [Capto Link (URL)](shorturl.at/iqFPV)
+- [Capto Link (URL)](Capto.store)
 
 [ insert an about ]
 
