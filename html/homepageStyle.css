@@ -81,21 +81,21 @@ header {
 #content .sidebar {
 	font-family: 'Montserrat', sans-serif;
 	color: rgba(146,146,146,1.00);
-	float: left;
+	float: right;
 	width: 20%;
 	padding-left: 3%;
 	padding-right: 3%;
 	text-align: center;
 	background-color: rgba(246,246,246,1.00);
 	padding-top: 36px;
-	height: 784px;
+	height: 1000px;
 }
 /* main content of the site */
 #content .mainContent {
 	float: left;
 	width: 70%;
 	text-align: center;
-	padding-left: 4%;
+	padding-right: 4%;
 }
 /*menubar's properties for menus in sidebar */
 #content .sidebar #menubar {
@@ -108,12 +108,14 @@ header {
 #content .sidebar #search {
 	width: 100%;
 	border-radius: 0px;
+	border-style: groove;
+	border-radius: 15px;
 	height: 42px;
 	text-align: center;
 	color: rgba(208,207,207,1.00);
 	font-size: 14px;
-	;
-	margin-bottom: 21px;
+	
+	margin-bottom: 0px;
 }
 /* Whole page content */
 #mainWrapper {
@@ -479,10 +481,11 @@ header #headerLinks a {
 	position: fixed;
   float:none;
     width:100% ;
-  
+	 z-index: 1;
+    
 }
 .topnav a {
-
+	
   float: none;
   color: #ffffff;
   text-align: center;

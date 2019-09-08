@@ -36,7 +36,17 @@
 
   </div>
 		
-  <div id="mySidenav" class="sidenav"><a href="javascript:void(0)" class="closebtn" onClick="closeNav()">&times;</a> Categories  <a href="#">Category 1</a> <a href="#">Category 2</a><a href="#">Category 3</a><a href="#">Category 4</a><a href="#">Category 5</a></div>
+  <div id="mySidenav" class="sidenav"><a href="javascript:void(0)" class="closebtn" onClick="closeNav()">&times;</a> 
+	  <a href="#"> Account </a> 
+	  <a href="#"> Transactions </a>
+	  <a href="#"> Latest Sales </a>
+	  <a href="#"> Request </a>
+	  <a href="#"> In Your Area </a>
+		  <a href="#"> FAQ </a>
+		  <a href="#"> Saved Items </a>
+		  <a href="#"> Your Recomended </a>
+		  <a href="#"> Gift </a>
+	  </div>
   <script>
 			
 			function openNav() {
@@ -98,29 +108,53 @@
   <div id="content">
     <section class="sidebar"> 
       <!-- This adds a sidebar with 1 searchbox,2 menusets, each with 4 links -->
-      <input type="text"  id="search" value="search">
+	<div class="f_seller">
+		
+		<img src="images/f_seller_img.jpg" alt="Featured Seller Placeholder" style="width:50%;height:50%;border-radius: 100%;padding:2px; border:3.5px solid  #F68E39">
+		
+		<span class="caption">Featured Seller</span>
+	
+	</div>
+		
+		
+      <input type="text"  id="search" value="search friends">
       <div id="menubar">
         <nav class="menu">
-          <h2><!-- Title for menuset 1 -->MENU ITEM 1 </h2>
+          <h2><!-- Title for menuset 1 -->Social Media </h2>
           <hr>
           <ul>
-            <!-- List of links under menuset 1 -->
-            <li><a href="#" title="Link">Link 1</a></li>
-            <li><a href="#" title="Link">Link 2</a></li>
-            <li><a href="#" title="Link">Link 3</a></li>
-            <li class="notimp"><!-- notimp class is applied to remove this link from the tablet and phone views --><a href="#"  title="Link">Link 4</a></li>
+            <!-- L}ist of links under menuset 1 -->
+            <li><a href="#" title="Link">Friend 1</a></li>
+            <li><a href="#" title="Link">Friend 2</a></li>
+            <li><a href="#" title="Link">Friend 3</a></li>
+            <li class="notimp"><!-- notimp class is applied to remove this link from the tablet and phone views --><a href="#"  title="Link">Friend 4</a></li>
           </ul>
         </nav>
         <nav class="menu">
-          <h2>MENU ITEM 2 </h2>
+          <h2>Suggested</h2>
           <!-- Title for menuset 2 -->
           <hr>
           <ul>
             <!--List of links under menuset 2 -->
-            <li><a href="#" title="Link">Link 1</a></li>
-            <li><a href="#" title="Link">Link 2</a></li>
-            <li><a href="#" title="Link">Link 3</a></li>
-            <li class="notimp"><!-- notimp class is applied to remove this link from the tablet and phone views --><a href="#" title="Link">Link 4</a></li>
+            <li><a href="#" title="Link">Friend 1</a></li>
+            <li><a href="#" title="Link">Friend 2</a></li>
+            <li><a href="#" title="Link">Friend 3</a></li>
+            <li class="notimp"><!-- notimp class is applied to remove this link from the tablet and phone views --><a href="#" title="Link">Friend 4</a></li>
+          </ul>
+        </nav>
+		  
+		  </nav>
+		<input type="text"  id="search" value="imput requests">
+        <nav class="menu">
+          <h2>Requests</h2>
+          <!-- Title for menuset 2 -->
+          <hr>
+          <ul>
+            <!--List of links under menuset 2 -->
+            <li><a href="#" title="Link">Person A is looking for Item B</a></li>
+            <li><a href="#" title="Link">Person A is looking for Item B</a></li>
+            <li><a href="#" title="Link">Person A is looking for Item B</a></li>
+            <li class="notimp"><!-- notimp class is applied to remove this link from the tablet and phone views --><a href="#" title="Link"> Person A is looking for item B</a></li>
           </ul>
         </nav>
       </div>
