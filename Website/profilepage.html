@@ -5,7 +5,7 @@
 	<meta charset="UTF-8" style="font-family: 'Courier New', Courier, monospace;">
     <title> Capto - The Virtual Garage</title>
 	<style type="text/css">
-		.menu {
+.menu {
   display: inline-block;
   float: left;
   cursor: pointer;
@@ -145,6 +145,7 @@ color: aliceblue;
 
 
 		.rightside a:hover {
+
 			background-color:  #F68E39;
 			
 		}
@@ -186,7 +187,24 @@ color: aliceblue;
 
 
 
-	}
+	#carousel {
+    width: auto;
+    height: auto;
+    background-color: transparent;
+    
+    overflow: auto;
+    white-space:nowrap;
+}
+
+#carousel .slide {
+    display: inline-block
+
+	
+}
+#carousel .slide a:hover{
+	
+	opacity:.75;
+}
 
 
 </style>
@@ -195,8 +213,8 @@ color: aliceblue;
 </head>
 <body>
 
+	
 	<nav>
-		<nav>
   <div class="topnav">
     <div class="menu" onclick="openNav()">
       <div class="bar1"></div>
@@ -234,7 +252,8 @@ color: aliceblue;
 
 		<div class="main"> 
 
-
+			
+<section>
 			<div id="profilePic">
 
 				<img src="images/profilePicPlaceholder.png" alt="Profile Pic" style="padding: .5px; margin: 30px; float:left;border:3.5px solid  #F68E39; border-radius: 100%; width: 190px">
@@ -256,9 +275,11 @@ color: aliceblue;
 
 			</div>
 
+	  
+	 
 			
 
-		</div>
+		
 
 
 		<div class="rightside" >
@@ -272,6 +293,49 @@ color: aliceblue;
 
 			</div>
 		</div>
+	</section>
+		</div>
+	
+			
+					 <div id="carousel">
+		  <div class="slide">
+        
+			  <a href="#"><img src="images/200x200.png"/></a>
+    </div>
+		  <div class="slide">
+        
+			  <a href="#"><img src="images/200x200.png"/></a>
+    </div>
+		  <div class="slide">
+        
+			  <a href="#"><img src="images/200x200.png"/></a>
+    </div>
+		  <div class="slide">
+        
+			  <a href="#"><img src="images/200x200.png"/></a>
+    </div>
+		  <div class="slide">
+        
+			  <a href="#"><img src="images/200x200.png"/></a>
+    </div>
+		  <div class="slide">
+        <a href="#"><img src="images/200x200.png"/></a>
+    </div>
+		  <div class="slide">
+        <a href="#"><img src="images/200x200.png"/></a>
+    </div>
+		  
+		  <div class="slide">
+        <a href="#"><img src="images/200x200.png"/></a>
+    </div>
+		  <div class="slide">
+        <a href="#"><img src="images/200x200.png"/></a>
+    </div>
+		  <div class="slide">
+        <a href="#"><img src="images/200x200.png"/></a>
+    </div>
+    
+</div>
 
 
 
