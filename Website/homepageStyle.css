@@ -76,19 +76,20 @@ header {
 	clear: both;
 	overflow: auto;
 	padding-top: 29px;
+	padding-left: 5%;
 }
 /* Sidebar */
 #content .sidebar {
 	font-family: 'Montserrat', sans-serif;
 	color: rgba(146,146,146,1.00);
-	float: right;
 	width: 20%;
+	float: left;
 	padding-left: 3%;
 	padding-right: 3%;
 	text-align: center;
 	background-color: rgba(246,246,246,1.00);
 	padding-top: 36px;
-	height: 1000px;
+	
 }
 /* main content of the site */
 #content .mainContent {
@@ -114,18 +115,23 @@ header {
 	text-align: center;
 	color: rgba(208,207,207,1.00);
 	font-size: 14px;
-	
 	margin-bottom: 0px;
 }
+f_seller{
+	padding:none;
+}
+
 /* Whole page content */
 #mainWrapper {
 	width: 80%;
 	padding-left: 10%;
+	
 }
 
 		
 
 .mainContentContainer{
+	
 	background-color: rgba(246,246,246,1.00);
 }
 /*menu elements */
@@ -138,6 +144,7 @@ header {
 }
 /* Product rows for catalog */
 #content .mainContent .productRow {
+	
 	overflow: auto;
 	color: rgba(146,146,146,1.00);
 }
@@ -146,7 +153,7 @@ header {
     float: left;
     padding-left: 5%;
     padding-right: 5%;
-    width: 22%;
+    width: 30%;
     padding-top: 5%;
 }
 /* Prices of a products in catalog */
@@ -156,6 +163,7 @@ header {
 	font-size: 22px;
 	position: relative;
 	top: -20px;
+	
 }
 /* Content holder for products in catalog*/
 .productRow .productInfo .productContent {
@@ -465,6 +473,8 @@ header #headerLinks a {
   align-self: auto;
   display: inline-block;
   padding: 2px;
+	height: 60px;
+	width: 60px;
 }
 .headerLogo a:hover{
 	opacity: .75;
