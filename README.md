@@ -1,8 +1,8 @@
 # Capto - Your Virtual Garage Sale
-- [Capto Link (without URL)](http://71.206.95.234:8081/)
+- [Amazon AWS](https://console.aws.amazon.com/elasticbeanstalk/home?region=us-east-1#/environment/dashboard?applicationName=Capto%20Store&environmentId=e-pmrxe4bpcp)
 - [Capto Link (URL)](Capto.store)
 
-[ insert an about ]
+### RE DO THIS WHOLE README.md
 
 ## Getting Started
 
