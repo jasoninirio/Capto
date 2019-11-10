@@ -6215,6 +6215,7 @@ a.close.disabled {
 
 .carousel {
   position: relative;
+
 }
 
 .carousel.pointer-event {
@@ -6225,6 +6226,7 @@ a.close.disabled {
 .carousel-inner {
   position: relative;
   width: 100%;
+  background-color: rgba(246, 246, 246, 1.00);
   overflow: hidden;
 }
 
@@ -6361,14 +6363,14 @@ a.close.disabled {
 .carousel-indicators {
     position: absolute;
     right: 0;
-    bottom: 26px;
+    bottom: 20px;
     left: -215px;
     z-index: 15;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: center;
     justify-content: center;
-    padding-left: 0;
+    padding-left: 20%;
     margin-right: 15%;
     margin-left: 15%;
     list-style: none;
@@ -6412,7 +6414,7 @@ a.close.disabled {
   padding-bottom: 20px;
   color: #fff;
   text-align: center;
-}
+	background-color:rgba(128,128,128,0.50);}
 
 @-webkit-keyframes spinner-border {
   to {

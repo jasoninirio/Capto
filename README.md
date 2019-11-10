@@ -1,6 +1,11 @@
 # Capto - Your Virtual Garage Sale
+<<<<<<< Updated upstream
 - [Amazon AWS](https://console.aws.amazon.com/elasticbeanstalk/home?region=us-east-1#/environment/dashboard?applicationName=Capto%20Store&environmentId=e-pmrxe4bpcp)
 - [Capto Link (URL)](http://capto.store/)
+=======
+- [Capto Link (without URL)](http://71.206.95.234:8081/)
+- [Capto Link (URL)](Capto.store)
+>>>>>>> Stashed changes
 
 ### RE DO THIS WHOLE README.md
 
